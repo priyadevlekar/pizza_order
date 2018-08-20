@@ -1,69 +1,141 @@
 {
-"veg_pizza": [
-	{
-	"id":"veg1",
-	"pizza_name":"veggei pizza",
-	"descrition":"corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around",
-	"img":"assets/images/veggie_pizza.jpg"
-},
-{	
-	"id":"veg2",
-	"pizza_name":"farm house",
-	"descrition":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
-	"img":"assets/images/farm_house.jpg"
-},
-{
-	"id":"veg3",
-	"pizza_name":"peppy paneer",
-	"descrition":"Chunky paneer with crisp capsicum and spicy red pepper and with a extra cheese all around - quite a mouthful!",
-	"img":"assets/images/peppy_paneer.jpg"
-},
-{
-	"id":"veg4",
-	"pizza_name":"mexican green wave",
-	"descrition":"A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs",
-	"img":"assets/images/mexican_green_wave.jpg"
-},
-{
-	"id":"veg5",
-	"pizza_name":"double pepproni",
-	"descrition":"A pizza added with oregano, crushed, cherry tomatoes. Pepperoni is characteristically soft, slightly smoky, and bright red in color.",
-	"img":"assets/images/double_pepperoni.jpg"
-},
-{
-	"id":"veg6",
-	"pizza_name":"deluxe veggie",
-	"descrition":" The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all",
-	"img":"assets/images/deluxe_veggie.jpg"
-},
-{
-	"id":"veg7",
-	"pizza_name":"5 pepper",
-	"descrition":" Topped wih basil leave, cherry tomatoes, Passata, mozzarella, Freshly ground black pepper and salt",
-	"img":"assets/images/five_peppers.jpg"
-},
-{
-	"id":"veg8",
-	"pizza_name":"classic pizza margherita",
-	"descrition":" Topped wih red bell pepper, yellow bell pepper, capsicum, red paprika, jalapeno & sprinked with exotic herb",
-	"img":"assets/images/margherita.jpg"
-},
-{
-	"id":"veg9",
-	"pizza_name":"veg extravaganza",
-	"descrition":"Corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around",
-	"img":"assets/images/veg_extravaganza.jpg"
-},
-{
-	"id":"veg10",
-	"pizza_name":"panner makhani",
-	"descrition":"Paneer and Capsicum on Makhani Sauce",
-	"img":"assets/images/panner_makhani.jpg"
-},
-{
-	"id":"veg11",
-	"pizza_name":"veggie paradise",
-	"descrition":"Golden Corn, Black Olives, Capsicum & Red Paprika.",
-	"img":"assets/images/veggie_pardies.jpg"
-}]
+	"pizzas":{
+
+		"veg_pizza": [
+			{
+			"id":"veg1",
+			"pizza_name":"veggei pizza",
+			"descrition":"corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around",
+			"img":"assets/images/veggie_pizza.jpg"
+		},
+		{	
+			"id":"veg2",
+			"pizza_name":"farm house",
+			"descrition":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+			"img":"assets/images/farm_house.jpg"
+		},
+		{
+			"id":"veg3",
+			"pizza_name":"peppy paneer",
+			"descrition":"Chunky small paneer with crisp capsicum and spicy red pepper and with a capsicuma and extra cheese all around- quite a mouthful!",
+			"img":"assets/images/peppy_paneer.jpg"
+		},
+		{
+			"id":"veg4",
+			"pizza_name":"mexican green wave",
+			"descrition":"A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs",
+			"img":"assets/images/mexican_green_wave.jpg"
+		},
+		{
+			"id":"veg5",
+			"pizza_name":"double pepproni",
+			"descrition":"A pizza added with oregano, crushed, cherry tomatoes. Pepperoni is characteristically soft, slightly smoky, and bright red in color.",
+			"img":"assets/images/double_pepperoni.jpg"
+		},
+		{
+			"id":"veg6",
+			"pizza_name":"deluxe veggie",
+			"descrition":" The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all",
+			"img":"assets/images/deluxe_veggie.jpg"
+		},
+		{
+			"id":"veg7",
+			"pizza_name":"5 pepper",
+			"descrition":" Topped wih basil leave, cherry tomatoes, Passata, mozzarella, Freshly ground black pepper and salt",
+			"img":"assets/images/five_peppers.jpg"
+		},
+		{
+			"id":"veg8",
+			"pizza_name":"classic pizza margherita",
+			"descrition":" Topped wih red bell pepper, yellow bell pepper, capsicum, red paprika, jalapeno & sprinked with exotic herb",
+			"img":"assets/images/margherita.jpg"
+		},
+		{
+			"id":"veg9",
+			"pizza_name":"veg extravaganza",
+			"descrition":"Corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around",
+			"img":"assets/images/veg_extravaganza.jpg"
+		},
+		{
+			"id":"veg10",
+			"pizza_name":"panner makhani",
+			"descrition":"Paneer and Capsicum on Makhani Sauce",
+			"img":"assets/images/panner_makhani.jpg"
+		},
+		{
+			"id":"veg11",
+			"pizza_name":"veggie paradise",
+			"descrition":"Golden Corn, Black Olives, Capsicum & Red Paprika.",
+			"img":"assets/images/veggie_pardies.jpg"
+		}],
+
+		"nonVeg_pizza": [
+			{
+			"id":"non-veg1",
+			"pizza_name":"chiken basil pizza",
+			"descrition":"Top each circle with sauce, then scatter the chicken, basil, and mozzarella over each. Drizzle with oil",
+			"img":"assets/images/basil_chicken.jpg"
+		},
+		{	
+			"id":"non-veg2",
+			"pizza_name":"chicken tikka",
+			"descrition":"Combine chicken, yogurt with garam masala, Top with onion and cheese ,Sprinkle with cilantro.",
+			"img":"assets/images/chicken_tikka.jpg"
+		},
+		{
+			"id":"non-veg3",
+			"pizza_name":"chicken sausage",
+			"descrition":"Chicken Sausage,such as Gold n’ Plump Parmesan Italian, shredded Mozzarella, fresh spinach and Cheese",
+			"img":"assets/images/peppy_paneer.jpg"
+		},
+		{
+			"id":"non-veg4",
+			"pizza_name":"chicken golden delight",
+			"descrition":"Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!",
+			"img":"assets/images/chicken_golden_delight.jpg"
+		},
+		{
+			"id":"non-veg5",
+			"pizza_name":"non veg supreme",
+			"descrition":"Bite into supreme delight of Black Olives, Grilled Mushroom, Made of spicy chicken chunks, finely chopped onions",
+			"img":"assets/images/Non-Veg_Supreme.jpg"
+		},
+		{
+			"id":"non-veg6",
+			"pizza_name":"peri-peri chicken",
+			"descrition":"This pizza has sliced chicken breast, mozzarella cheese, and a few other complementary toppings, liberally laced with peri peri sauce. This pizza is perfect for those who like it spicy.",
+			"img":"assets/images/peri_peri_chicken.jpg"
+		},
+		{
+			"id":"non-veg7",
+			"pizza_name":"pepper barbecue",
+			"descrition":"pepperoncini peppers, spicy barbeque sauce, kinless boneless chicken breast halves and red Onion with cheese.",
+			"img":"assets/images/Pepper_Barbecue.jpg"
+		},
+		{
+			"id":"non-veg8",
+			"pizza_name":"tandoori chicken",
+			"descrition":"Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum",
+			"img":"assets/images/chicken_tandoori.jpg"
+		},
+		{
+			"id":"non-veg9",
+			"pizza_name":"chunky chicken",
+			"descrition":"Combine tandoori paste, lemon juice with yoghurt, Spread chutney over pizza base, op with onion, spinach, chicken, raisins, almonds and cheese.",
+			"img":"assets/images/chunky_chicken.jpg"
+		},
+		{
+			"id":"non-veg10",
+			"pizza_name":"non-veg extravaganza",
+			"descrition":"tomato sauce,capsicum, onion  paneer, pineapple chunks, red or yellow bell pepper, chilly flakes and oregano.",
+			"img":"assets/images/non-veg-extravaganza.jpg"
+		},
+		{
+			"id":"non-veg11",
+			"pizza_name":"meat_supreme",
+			"descrition":"marinara sauce, sweet Italian sausage meat, Top pizza with mushrooms, green pepper, pepperoni, and crumbled cooked bacon. Crumble sausage on top.",
+			"img":"assets/images/meat_supreme.jpg"
+		}]
+	}	
 }
+
