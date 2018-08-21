@@ -98,4 +98,11 @@ console.log(item);
         }        
       }
       } 
+      var order_btn = document.getElementsByClassName('order');
+      var a=Array.from(order_btn);
+      console.log(order_btn);
+
+      a.forEach(function(element){
+        element.addEventListener('click', function(){ order_pizza(this) });
+      });
     }   
