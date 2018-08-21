@@ -134,6 +134,28 @@ sub { bottom: -.25em; }
 
 .cf:after { clear: both; }
 
+.cf { *zoom: 1; }
+
+/* 1.3. Font class declaration
+   ========================================================================== */
+/*
+ * Mention the font property (eg: font-family, font-size, font-weight, font-style
+ * etc) that have been commonly used in the html document. Make a class of it and
+ * apply to the element wherever it is needed. If any single property in changed,
+ * then override only that property in the particular class which is used for the
+ * element.
+ * (NOTE: Remove this commented code once you start 
+ * developing the code. Remove the following font class and add your own
+ * as this is just and example to let you know. If there is only one font family
+ * followed throughout the site, then menstion the font property in body. No need
+ * of creating an extra class for it) */
+
+.futura-bold-font {
+  font-family: 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
 body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -154,6 +176,9 @@ a {
   display: inline-block;
   vertical-align: top;
   text-decoration: none;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 .wrapper {
@@ -161,6 +186,54 @@ a {
   width: 85%;
   margin: 0 auto;
 }
+
+header {
+  padding:10px 0; 
+  background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1));
+}
+
+.right-block { float: right; }
+
+h1{
+  width: 13%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+header li { padding: 10px; }
+
+nav a{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+nav a:hover,
+.active { color: #ff2b2b; }
+
+.social-link { text-align: right; }
+
+.social-link a{
+ width: 44px;
+  height: 25px;
+  padding: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  display: block;
+  background-color: #fff;
+  font: normal 400 22px 'Font Awesome 5 Brands';
+  text-align: center;
+}
+
+.social-link a:hover { color: #fff; }
+.fa-facebook-f {  color: #1d487d; }
+.fa-facebook-f:hover {  background-color: #1d487d; }
+.fa-twitter { color: #52adf1; }
+.fa-twitter:hover { background-color: #52adf1; }
+.fa-instagram { color: #b73887; }
+.fa-instagram:hover { background-color: #b73887; }
 
 .list-pizza { background: url('../images/veg-background.png') no-repeat fixed center; }
 
@@ -199,6 +272,7 @@ h4 {
   text-transform: capitalize;
 }
 
+
 p {
   padding-bottom: 20px;
   color: #9e9898;
@@ -206,8 +280,8 @@ p {
 }
 
 .type-pizza a {
-  padding: 12px 30px;
   border: 2px solid #eee;
+  padding: 12px 30px;
   background: #c7c1c1;
   color: #ff2b2b;
   font-size: 20px;
@@ -242,4 +316,9 @@ h3 {
   font-size: 30px;
   text-align: center;
   text-transform: capitalize;
+}
+
+.main-heading {
+  padding-bottom: 20px;
+  text-decoration:underline;
 }

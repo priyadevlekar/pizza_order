@@ -103,20 +103,20 @@
 		{
 			"id":"non-veg6",
 			"pizza_name":"peri-peri chicken",
-			"descrition":"This pizza has sliced chicken breast, mozzarella cheese, and a few other complementary toppings, liberally laced with peri peri sauce. This pizza is perfect for those who like it spicy.",
+			"descrition":"This pizza has sliced chicken breast, mozzarella cheese, and a few other complementary toppings, liberally laced with peri peri sauce.",
 			"img":"assets/images/peri_peri_chicken.jpg"
 		},
 		{
 			"id":"non-veg7",
-			"pizza_name":"pepper barbecue",
+			"pizza_name":"pepper barbeque",
 			"descrition":"pepperoncini peppers, spicy barbeque sauce, kinless boneless chicken breast halves and red Onion with cheese.",
-			"img":"assets/images/Pepper_Barbecue.jpg"
+			"img":"assets/images/Pepper_Barbeque.jpg"
 		},
 		{
 			"id":"non-veg8",
 			"pizza_name":"tandoori chicken",
 			"descrition":"Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum",
-			"img":"assets/images/chicken_tandoori.jpg"
+			"img":"assets/images/chicken-tandoori.jpg"
 		},
 		{
 			"id":"non-veg9",
@@ -138,4 +138,3 @@
 		}]
 	}	
 }
-
