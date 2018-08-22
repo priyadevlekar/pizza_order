@@ -323,6 +323,15 @@ h3 {
   text-decoration:underline;
 }
 
+.order-img,
+.form-group,
+.address{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.order-img { width: 20%; }
+
 
 footer{
   padding-top: 20px;
