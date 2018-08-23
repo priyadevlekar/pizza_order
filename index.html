@@ -17,6 +17,7 @@
  <link rel="stylesheet" href="assets/vendor/font/fontawesome-all.css">
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
   <link rel="stylesheet" media="screen" href="assets/css/style.css" > 
+  <link rel="stylesheet" media="screen" href="assets/css/banner_style.css" >
 </head>
   <body>
     <!-- Container Section Started -->
@@ -46,7 +47,72 @@
       <!-- Header Section Ended -->
       <!-- Main Section Started -->
       <main>
+      <section class="banner">
+        <div class="slider-container">
+      <ul id="hero-slider" class="slider">
+        <li class="slide slide1">
+          <div class="img-wrapper">
+            <img src="assets/images/farm_house.jpg" alt="Alternate Text" class="slider-img transparent-pizza" />
+            <img src="assets/images/plus-img.png" alt="plus symbol" class="plus">
+            <img src="assets/images/coca-cola-can.png" alt="coca-cola-can" class="coca-cola-can">
+          </div>
+          <div class="content">
+            <h2>add coke and get 5% off*.</h2>
+            <span class="content-price"> &#8360;150</span>
+            <span class="offer-price"> &#8360; 135</span>
+            <a href="#FIXME" title="Order Now" class="order-now">order now</a>
+          </div>
+        </li>
+        <li class="slide slide2">
+          <div class="img-wrapper">
+            <img src="assets/images/pappri_coan.jpg" alt="Alternate Text" class="slider-img pappri_coan" />
+            <img src="assets/images/plus-img.png" alt="plus symbol" class="plus">
+            <img src="assets/images/pappri_coan.jpg" alt="Alternate Text" class="slider-img peppy_paneer" />
+          </div>
+          <div class="content">
+            <h2>add coke and get 15% off*.</h2>
+            <span class="content-price"> &#8360;150</span>
+            <span class="offer-price"> &#8360; 135</span>
+            <a href="#FIXME" title="Order Now" class="order-now">order now</a>
+          </div>
+        </li>
+        <li class="slide slide3">
+          <div class="img-wrapper">
+            <img src="assets/images/farm_house.jpg" alt="Alternate Text" class="slider-img" />
+          </div>
+          <img src="assets/images/limited-offer.jpg" alt="offer" class="limited-offer">
+          <div class="content">
+            <h2>order now and get 20% off*.</h2>
+            <h3> 
+              for limited time only.
+              <span id="timer"></span>
+            </h3>
+            <span class="content-price"> &#8360;150</span>
+            <span class="offer-price"> &#8360; 135</span>
+            <a href="#FIXME" title="Order Now" class="order-now">order now</a>
+          </div>
+        </li>
+      </ul>
+      <a href="#FIXME" id="left" title="Previous" class="btn-previous">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <a href="#FIXME" id="right" title="Next" class="btn-next">
+        <i class="fas fa-chevron-right"></i>
+      </a>
 
+      <ul class="slider-controls">
+        <li class="control-holder">
+          <a href="#FIXME" class="control" title="Blue Fire"></a>
+        </li>
+        <li class="control-holder">
+          <a href="#FIXME" class="control" title="Cat"></a>
+        </li>
+        <li class="control-holder">
+          <a href="#FIXME" class="control" title="Cute Cat"></a>
+        </li>
+      </ul>
+    </div>
+      </section>
         <section class="list-pizza">
           <div class="overlay">
             <div class="wrapper">
@@ -108,5 +174,6 @@
     </div>
     <!-- Container Section Ended -->
     <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/banner.js"></script>
   </body>
 </html>
