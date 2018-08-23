@@ -5,7 +5,7 @@
 			{
 			"id":"veg1",
 			"pizza_name":"veggei pizza",
-			"descrition":"corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around",
+			"descrition":"corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno",
 			"img":"assets/images/veggie_pizza.jpg",
 			"regular_price":"Rs.155",
 			"medium_price":"Rs.295",
@@ -14,7 +14,7 @@
 		{	
 			"id":"veg2",
 			"pizza_name":"farm house",
-			"descrition":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+			"descrition":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, capsicum, succulent mushrooms tomatoes",
 			"img":"assets/images/farm_house.jpg",
 			"regular_price":"Rs.155",
 			"medium_price":"Rs.365",
@@ -67,7 +67,7 @@
 		},
 		{
 			"id":"veg8",
-			"pizza_name":"classic pizza margherita",
+			"pizza_name":"classic margherita",
 			"descrition":" Topped wih red bell pepper, yellow bell pepper, capsicum, red paprika, jalapeno & sprinked with exotic herb",
 			"img":"assets/images/margherita.jpg",
 			"regular_price":"Rs.99",
@@ -77,7 +77,7 @@
 		{
 			"id":"veg9",
 			"pizza_name":"veg extravaganza",
-			"descrition":"Corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around",
+			"descrition":"Corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, tomatoes and jalapeno - with extra cheese.",
 			"img":"assets/images/veg_extravaganza.jpg",
 			"regular_price":"Rs.230",
 			"medium_price":"Rs.440",
@@ -133,7 +133,7 @@
 		{
 			"id":"non-veg4",
 			"pizza_name":"chicken golden delight",
-			"descrition":"Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!",
+			"descrition":"Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese.",
 			"img":"assets/images/chicken_golden_delight.jpg",
 			"regular_price":"Rs.230",
 			"medium_price":"Rs.440",
@@ -151,7 +151,7 @@
 		{
 			"id":"non-veg6",
 			"pizza_name":"peri-peri chicken",
-			"descrition":"This pizza has sliced chicken breast, mozzarella cheese, and a few other complementary toppings, liberally laced with peri peri sauce.",
+			"descrition":"This pizza has sliced chicken breast, mozzarella cheese, toppings, liberally laced with peri peri sauce.",
 			"img":"assets/images/peri_peri_chicken.jpg",
 			"regular_price":"Rs.195",
 			"medium_price":"Rs.365",
@@ -178,7 +178,7 @@
 		{
 			"id":"non-veg9",
 			"pizza_name":"chunky chicken",
-			"descrition":"Combine tandoori paste, lemon juice with yoghurt, Spread chutney over pizza base, op with onion, spinach, chicken, raisins, almonds and cheese.",
+			"descrition":"Combine tandoori paste, lemon juice with yoghurt, Spread chutney over pizza base, op with onion, spinach, chicken, raisins.",
 			"img":"assets/images/chunky_chicken.jpg",
 			"regular_price":"Rs.230",
 			"medium_price":"Rs.440",
@@ -187,7 +187,7 @@
 		{
 			"id":"non-veg10",
 			"pizza_name":"non-veg extravaganza",
-			"descrition":"tomato sauce,capsicum, onion  paneer, pineapple chunks, red or yellow bell pepper, chilly flakes and oregano.",
+			"descrition":"tomato sauce,capsicum, chilly flakes and oregano, onion, paneer, chunks, pepper.",
 			"img":"assets/images/non-veg-extravaganza.jpg",
 			"regular_price":"Rs.275",
 			"medium_price":"Rs.525",
@@ -196,7 +196,7 @@
 		{
 			"id":"non-veg11",
 			"pizza_name":"meat_supreme",
-			"descrition":"marinara sauce, sweet Italian sausage meat, Top pizza with mushrooms, green pepper, pepperoni, and crumbled cooked bacon. Crumble sausage on top.",
+			"descrition":"marinara sauce, sweet Italian sausage meat, green pepper, pepperoni, and crumbled cooked bacon. Crumble sausage on top.",
 			"img":"assets/images/meat_supreme.jpg",
 			"regular_price":"Rs.345",
 			"medium_price":"Rs.555",
