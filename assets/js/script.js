@@ -174,9 +174,9 @@ console.log(item);
               var span_reg = document.createElement('span');
               var span_med = document.createElement('span');
               var span_lar = document.createElement('span');
-              span_reg.innerHTML = record.pizzas['veg_pizza'][i].regular_price;
-              span_med.innerHTML = record.pizzas['veg_pizza'][i].medium_price;
-              span_lar.innerHTML = record.pizzas['veg_pizza'][i].large_price;
+              span_reg.innerHTML = record.pizzas['nonVeg_pizza'][i].regular_price;
+              span_med.innerHTML = record.pizzas['nonVeg_pizza'][i].medium_price;
+              span_lar.innerHTML = record.pizzas['nonVeg_pizza'][i].large_price;
 
               reg_order.appendChild(span_reg);
               med_order.appendChild(span_med);
@@ -301,7 +301,30 @@ function add_to_card(list,data){
         detail.appendChild(li);
         console.log(detail);
       }
-      
+    }
+
+    for (var i = 0; i < data.pizzas['nonVeg_pizza'].length; i++){
+      if(id==data.pizzas['nonVeg_pizza'][i].id){
+        var li = document.createElement('li'); 
+        var span = document.createElement('span');
+        var span_price = document.createElement('span');
+        span_price.classList = 'price';
+        
+        span.innerHTML = data.pizzas['nonVeg_pizza'][i].pizza_name;
+        li.appendChild(span);
+        if(type =='reg'){
+          span_price.innerHTML= data.pizzas['nonVeg_pizza'][i].regular_price;
+        }
+        else if(type =='med'){
+          span_price.innerHTML= data.pizzas['nonVeg_pizza'][i].medium_price;
+        }
+        else if(type =='lar'){
+          span_price.innerHTML= data.pizzas['nonVeg_pizza'][i].large_price;
+        }
+        li.appendChild(span_price);
+        detail.appendChild(li);
+        console.log(detail);
+      }
     }
 
     var detail_price = document.getElementsByClassName('price');
