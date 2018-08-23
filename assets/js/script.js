@@ -225,12 +225,19 @@ console.log(item);
       });
 
       var add_to = document.getElementsByClassName('add-card');
-      var a=Array.from(add_to);
+      var add_card=Array.from(add_to);
       console.log(add_to);
 
-      a.forEach(function(ele){
+      add_card.forEach(function(ele){
         console.log(ele);
         ele.addEventListener('click', function(){ add_to_card(this,record) });
+      });
+
+      var offer_order = document.getElementsByClassName('order-now');
+      var card_offer=Array.from(offer_order);
+      card_offer.forEach(function(e){
+        console.log(e);
+        e.addEventListener('click', function(){ order_pizza(this) });
       });
 
     }   
