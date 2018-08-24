@@ -19,11 +19,6 @@
   vertical-align:top;
   position: relative;
 }
-/*
-.img-wrapper {
-  width: 100%;
-  text-align: right;  
-}*/
 
 .content {
   padding-right: 12%;
@@ -32,28 +27,32 @@
 }
 
 .content-price { 
-  font-size: 26px;
+  color:#ff0000;
+  font-size: 28px;
   font-weight: bold;
   text-decoration: line-through; 
 }
 
 .offer-price {
   padding-left: 15px;
-  font-size: 26px;
+  color: #1ac50e;
+  font-size: 28px;
   font-weight: bolder; 
 }
 
 .order-now {
   padding: 20px;
+  border-radius: 5px;
+  margin-left: 5%;
   border: 1px solid #000;
-  background: #000;
+  background: #222;
   color: #fff;
   text-transform: uppercase;
 }
 
 .order-now:hover {
   background: #fff;
-  color: #000;
+  color: #222;
 }
 .slide:first-child { margin-left: 0; }
 
@@ -62,10 +61,6 @@
     transition: margin 1s ease;
 }
 
-/*.slide1 {
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-}*/
 .transparent-pizza,
 .pappri_coan {
   width: 250px;
@@ -78,8 +73,8 @@
 .plus {
   width: 132px;
   position: absolute;
-  top: 150px;
-  left: 325px;
+  top: 115px;
+  left: 322px;
 }
 
 .coca-cola-can,
@@ -95,8 +90,8 @@
 .slide2 .content { padding-right: 3%; }
 
 .slide3 .img-wrapper {
-  width: 25%;
-  margin-top: 20px;
+  width: 24%;
+  margin-top: 50px;
   margin-left: 5%;
   float: left;
   text-align: left;
@@ -107,12 +102,7 @@
   top: 0;
   right: 0;
 }
-h3 {
-  margin-bottom: 20px;
-  font-size:20px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
+
 #timer {
   color: red;
   font-size: 30px;
@@ -157,9 +147,9 @@ h3 {
 }
 
 h2 {
-  color: #eee;
+  color: #e8d923;
   margin: 15% 0 30px;
-  font-size: 35px;
+  font-size: 34px;
   text-transform: uppercase;
 }
 

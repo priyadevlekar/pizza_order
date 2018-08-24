@@ -1,34 +1,6 @@
 @charset "utf-8";
 
 /*------------------------------------------------------------------
-  [Table of contents]
-  * To keep an overview of structure of your code, we make use of table of 
-  * content. Table of content is use display the overall tree structure of your
-  * Layout. 
-  * (NOTE: Remove this commented code once you start developing the code.
-  * Remove the following table of content and add your own as this is just and 
-  * example to let you know)
-
-  1. CSS Reset Code
-    1.1. Eric Meyers Reset/HTML5 display-role reset for older browsers
-    1.2. Clear Fix
-    1.3. Font class declaration
-  2. Body
-  3. Header / .header
-    2.1. Navigation / .navbar
-  4. Content / .content
-    4.1. Left column / .leftcolumn
-    4.2. Right column / .rightcolumn
-    4.3. Sidebar / .sidebar
-      4.3.1. RSS / .rss
-      4.3.2. Search / .search
-      4.3.3. Boxes / .box
-      4.3.4. Sideblog / .sideblog
-      4.3.5. Advertisements / .ads
-  5. Footer / .footer
-  ------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
   [Color codes]
   * Mention the color code you have used in your html document for the respective
   * elements given as follow. 
@@ -134,27 +106,7 @@ sub { bottom: -.25em; }
 
 .cf:after { clear: both; }
 
-.cf { *zoom: 1; }
-
-/* 1.3. Font class declaration
-   ========================================================================== */
-/*
- * Mention the font property (eg: font-family, font-size, font-weight, font-style
- * etc) that have been commonly used in the html document. Make a class of it and
- * apply to the element wherever it is needed. If any single property in changed,
- * then override only that property in the particular class which is used for the
- * element.
- * (NOTE: Remove this commented code once you start 
- * developing the code. Remove the following font class and add your own
- * as this is just and example to let you know. If there is only one font family
- * followed throughout the site, then menstion the font property in body. No need
- * of creating an extra class for it) */
-
-.futura-bold-font {
-  font-family: 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-}
+/*============comman styling======*/
 
 body {
   -webkit-box-sizing: border-box;
@@ -187,25 +139,30 @@ a {
   margin: 0 auto;
 }
 
+/*=========== header styling ===============*/
+
 header {
   padding:10px 0; 
-  background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1));
+  background: rgba(34, 34, 34, 0.7);
+ /* background: -moz-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1));
+  background: -ms-radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1));
+  background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1));*/
 }
 
 .right-block { float: right; }
 
-h1{
-  width: 13%;
+h1 {
+  width: 12%;
   display: inline-block;
   vertical-align: top;
 }
 
-header li { padding: 10px; }
+header li { padding: 7px; }
 
-nav a{
+nav a {
   color: #fff;
-  text-transform: capitalize;
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 nav a:hover,
@@ -213,10 +170,10 @@ nav a:hover,
 
 .social-link { text-align: right; }
 
-.social-link a{
- width: 44px;
+.social-link a {
+  width: 44px;
   height: 25px;
-  padding: 10px 0;
+  padding: 8px 0;
   border: 1px solid transparent;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -235,6 +192,7 @@ nav a:hover,
 .fa-instagram { color: #b73887; }
 .fa-instagram:hover { background-color: #b73887; }
 
+/*====================list of pizza styling======================*/
 .list-pizza { background: url('../images/veg-background.png') no-repeat fixed center; }
 
 .overlay {
@@ -249,9 +207,16 @@ nav a:hover,
   height: 600px;
   padding: 15px;
   border: 1px solid #eee;
+  border-radius: 5px;
   margin: 20px 0;
   background: #fff;
+  cursor: pointer;
   text-align: center;
+}
+
+.type-pizza li:hover {
+  -webkit-box-shadow: 0 0 20px #222 ;
+  box-shadow: 0 0 20px #222; 
 }
 
 .type-pizza div { width: 100%; }
@@ -280,10 +245,11 @@ p {
 
 .type-pizza a {
   width: 75%;
-  margin-top: 5px;
-  border: 2px solid #eee;
   padding: 12px 0;
-  background: #c7c1c1;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: #ccc;
   color: #ff2b2b;
   font-size: 20px;
   text-transform: capitalize;
@@ -293,14 +259,16 @@ p {
 
 .type-pizza a:hover {
   background:#ff2b2b;
-  color:  #c7c1c1;
+  color:  #ccc;
 }
 
+/*=============== place order button styling ===============*/
 .more,
 .place-order a {
   width: 20%;
   padding: 15px 0;
   border: 2px solid #222;
+  border-radius: 5px;
   margin: 0 auto;
   display: block;
   background: #fff;
@@ -310,7 +278,8 @@ p {
   text-transform: uppercase;
 }
 
-.more:hover {
+.more:hover,
+.place-order a:hover {
   background: #ff2b2b;
   color: #fff;
 }
@@ -324,7 +293,7 @@ h3 {
 
 .main-heading {
   padding-bottom: 20px;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .order-img,
@@ -335,7 +304,9 @@ h3 {
 }
 
 .order-img { width: 20%; }
+.place-order p span {color: #ff0000; }
 
+/*------------- footer styling -------------*/
 
 footer{
   padding-top: 20px;
@@ -344,6 +315,8 @@ footer{
 }
 
 .capi{ text-transform: capitalize; }
+
+/*======================= order page styling ========================*/
 
 .place-order {
   padding: 120px 0;
@@ -367,16 +340,16 @@ footer{
 .address { width: 40%; }
 
 .address label {
-   color: #9e9898;
+  color: #9e9898;
   font-size: 20px;
 }
 
 .form-field { height: 50px; }
 .address input {
-    width: 50%;
-    height: 30px;
-    outline: none;
+  width: 50%;
+  height: 30px;
   float: right;
+  outline: none;
 }
 
 .link {
@@ -385,56 +358,68 @@ footer{
 
 .place-order a { display: inline-block; }
 
-/*.order-card a { display: block; }*/
-
+/*========= add to card styling ============*/
 .panel { 
   width: 50%;
   padding: 50px;
   margin-left: 30px;
+  display: none;
   background: rgba(0,0,0,0.5);
   color: #f1ebeb;
-  display: none;
- text-align: center;
+  text-align: center;
 }
 
 .order_summary { 
   color: #fff;
   font-size: 35px;
+}
 
+.order_summary:hover {
+  color: #d5cbcb;
 }
 
 .panel-title { font-size: 30px; }
 
 .close {
+  float: right;
+  color: #e5dddd;
   cursor: pointer;
   font-size: 25px;
-  color: #e5dddd;
-  float: right;
 }
 
 .col-date,
 .col-order {
+  padding: 5px 10%; 
   display: inline-block;
   vertical-align: top;
-  padding: 5px 10%; 
 }
 
 .list-group li {
   width: 80%;
-  background: #eee;
-  display: block;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px 0 10px 10%;
+  display: block;
+  background: #eee;
 }
 
 .list-group li span{
-   padding: 5px 10%; 
-   color: #222;
+  padding: 5px 10%; 
+  color: #222;
+  font-size: 19px;
+  text-transform: capitalize;
 }
 
 .panel-footer h4 { color: #f6eded; }
 
-.order-card {
+.order_btn .order-card {
+  padding: 10px 15px;
+  background: #fff;
+  color: #ff2b2b;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.order_btn .order-card:hover {
   color: #eee;
-  font-size: 18px;
+  background: #ff2b2b;
 }

@@ -22,11 +22,7 @@
 	    	c.forEach(function(element){
 				element.classList.remove("active");
 			});
-
-			// console.log("Clicked");
-	    	// if(index>=0) i = index;
 	    	i++;
-		    console.log("i=",i);
 		    move(i);
 
 		    c[i].classList.add("active");
@@ -35,13 +31,8 @@
 	    	c.forEach(function(element){
 				element.classList.remove("active");
 			});
-
-			// console.log("Clicked");
-	    	// if(index>=0) i = index;
 	    	i=0;
-		    console.log("i=",i);
 		    move(i);
-
 		    c[i].classList.add("active");
 	    }
 	});
@@ -55,11 +46,7 @@
 	    	c.forEach(function(element){
 				element.classList.remove("active");
 			});
-
-			console.log("Clicked"); 
-	    	// if(index>=0) i = index;
 	    	--i;
-			console.log("i=",i);
 		    move(i);
 		    c[i].classList.add("active");
 	    }
@@ -77,7 +64,6 @@
 			index = c.indexOf(this);
 			i = index;
 			move(index);
-			// console.log("index=",index);
 			c[index].classList.add("active");
 		});
 	}
@@ -94,7 +80,6 @@
 	}
 
 	var countDownDate = new Date(" aug 26, 2018 11:00:00").getTime();
-console.log(countDownDate);
 
 var counter = setInterval(function(){
 	var now = new Date().getTime();
